@@ -1,0 +1,21 @@
+header {display: inline-flex;
+width: 100%
+}
+
+li {display: inline;
+    padding: 15px;
+    background-color: burlywood;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {text-decoration: none;
+font-family: 'Poppins', sans-serif, Impact, Haettenschweiler, ;
+color: brown;}
+
+h1{color: crimson;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {font-family:'Poppins', sans-serif;
+    color:brown ;
+}
