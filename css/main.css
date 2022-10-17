@@ -1,12 +1,18 @@
-header {display: inline-flex;
-width: 100%
+header {display:flex;
+    width: 100%;
+    height: 100%;
 }
 
-li {display: inline;
-    padding: 15px;
+li {display: inline-block;
+    height: 100%;
+    padding: 20px;
     background-color: burlywood;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    gap: 1rem;
 }
+
 
 a {text-decoration: none;
 font-family: 'Poppins', sans-serif, Impact, Haettenschweiler, ;
@@ -17,5 +23,47 @@ h1{color: crimson;
 }
 
 p {font-family:'Poppins', sans-serif;
-    color:brown ;
+    color:brown;
+    font-size: medium;
 }
+
+html {font-size: 62%;
+height: 100%;
+margin: 40px;
+}
+
+header {height: 100%;}
+
+body {font font-family: 'Poppins', sans-serif;
+    background color: antiquewhite;
+    background-image:backdrop;
+}
+
+ /* PLANES*/
+
+.card {padding: 20px;
+margin: 20px;
+transition: 3s;
+}
+
+.btnbtn-primary:hover {transform: scale(1.2);}
+
+
+/*FOOTER*/
+footer {height: 60px; text-align: center;
+    display: inline;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#footer {display:grid;
+    grid-template-columns: 2fr;
+background-color: burlywood;}
+
+.cuenta {font-family:'Poppins', sans-serif;
+color:brown;
+font-size: medium}
+
+
+.formulario {margin:20px;}
