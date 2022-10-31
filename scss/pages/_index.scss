@@ -1,0 +1,53 @@
+header {display:flex;
+    // width: 100%;
+    // height: 100%;
+    background-color:antiquewhite;
+    margin:0%;
+}
+
+.header {@include sizes(100%,100%)}
+
+li {display: inline-block;
+    height: 100%;
+    padding: 20px;
+    background-color: unset;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    gap: 1rem;
+}
+
+a {text-decoration: none;
+font-family: 'Poppins', sans-serif, Impact, Haettenschweiler, ;
+color: brown;}
+
+h1{color: crimson;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {font-family:'Poppins', sans-serif;
+    color:brown;
+    font-size: medium;
+    text-align: center;
+}
+ 
+html {font-size: 62%;
+    height: 100%;
+    margin: 40px;
+    }
+
+header {height: 100%;}
+
+body {font-family: 'Poppins', sans-serif;
+    background color: antiquewhite;
+    ;
+}
+
+#footer{text-align:center;}
+
+header {display:flex;
+    // width: 100%;
+    // height: 100%;
+    background-color:antiquewhite;
+    margin:0%;
+}
